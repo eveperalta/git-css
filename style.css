@@ -25,6 +25,11 @@ width: 100%;
 
 #contentcolumn{
 margin-left: 200px;
+margin-right: 200px;
+padding-left: 70px;
+padding-right: 70px;
+background-color: #ffe6e6;
+border-radius: 10px;
 }
 
 #leftcolumn{
@@ -33,26 +38,7 @@ width: 200px;
 margin-left: -100%;
 background: #C8FC98;
 }
-/*Inicio css links*/
-#leftcolumn img {
-	width:180px;
-	text-align:center;
-	border:2px solid black;
-}
-#leftcolumn img:hover {
-	width:180px;
-	text-align: center;
-	border:2px dotted darkgreen;
-	transition: 0.5s ease;
-}
-#leftcolumn img {
-	width:180px;
-	text-align:center;
-	border:2px solid black;
-	transition: 0.5s ease;
-}
 
-/*END*/
 #footer{
 clear: left;
 width: 100%;
@@ -70,13 +56,6 @@ color: #FFFF80;
 margin: 10px;
 margin-top: 0;
 }
-.innertube h1{
-background-color: yellow;
-border: black dotted 2px;
-text-align: center;
-font-size: 36px;
-font-family: fantasy; 
-}/*cambios en el titulo*/
 @media (max-width: 600px){
 	#contentwrapper{
 	float: none;
@@ -92,9 +71,3 @@ font-family: fantasy;
 	margin-left: 0;
 	}
 }
-table{
-	margin-left:30%; 
-	text-align: center;
-	border-color: green;
-}
-/* ####### Acá va su código ####### */

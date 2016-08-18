@@ -32,6 +32,7 @@ float: left;
 width: 200px;
 margin-left: -100%;
 background: #C8FC98;
+position: fixed;
 }
 /*Inicio css links*/
 #leftcolumn img {
@@ -83,15 +84,11 @@ font-family: fantasy;
 	}
 	
 	#leftcolumn{
-	float: none;
+	float: left;
 	width: 100%;
 	margin-left: 0;
 	}
-	
-	#contentcolumn{
-	margin-left: 0;
-	}
-}
+
 table{
 	margin-left:30%; 
 	text-align: center;

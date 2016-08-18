@@ -92,4 +92,9 @@ font-family: fantasy;
 	margin-left: 0;
 	}
 }
+table{
+	margin-left:30%; 
+	text-align: center;
+	border-color: green;
+}
 /* ####### Acá va su código ####### */

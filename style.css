@@ -51,6 +51,13 @@ color: #FFFF80;
 margin: 10px;
 margin-top: 0;
 }
+.innertube h1{
+background-color: yellow;
+border: black dotted 2px;
+text-align: center;
+font-size: 36px;
+font-family: fantasy; 
+}/*cambios en el titulo*/
 @media (max-width: 600px){
 	#contentwrapper{
 	float: none;
